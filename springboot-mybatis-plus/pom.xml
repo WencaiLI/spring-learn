@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lwc</groupId>
-    <artifactId>springboot-dozer</artifactId>
+    <artifactId>springboot-mybatis-plus</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-dozer</name>
+    <name>springboot-mybatis-plus</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -31,26 +31,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-
-        <!-- mvc -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-
-        <!-- dozer依赖 -->
-        <dependency>
-            <groupId>net.sf.dozer</groupId>
-            <artifactId>dozer</artifactId>
-            <version>5.5.1</version>
-        </dependency>
-
-        <!-- lombok -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
@@ -83,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.lwc.springbootdozer.SpringbootDozerApplication</mainClass>
+                    <mainClass>com.lwc.springbootmybatisplus.SpringbootMybatisPlusApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

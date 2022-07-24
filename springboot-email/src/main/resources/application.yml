@@ -1,0 +1,14 @@
+# 应用名称
+#spring.application.name=springboot-email
+spring:
+  application:
+    name: springboot-email
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+  mail:
+    host: smtp.qq.com
+    username: 1491269442@qq.com
+    password: vqbblnmgwdbrhjhj
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.starttls.enable: true

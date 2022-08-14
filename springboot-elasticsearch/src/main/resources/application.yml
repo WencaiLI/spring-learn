@@ -1,0 +1,9 @@
+# 应用名称
+spring:
+  application:
+    name: springboot-elasticsearch
+  elasticsearch:
+    rest:
+      uris: http://127.0.0.1:9200
+      username: elastic
+      password: password

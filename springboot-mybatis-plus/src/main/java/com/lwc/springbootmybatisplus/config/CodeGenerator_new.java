@@ -1,4 +1,4 @@
-package com.lwc.springbootmybatisplus;
+package com.lwc.springbootmybatisplus.config;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.generator.FastAutoGenerator;

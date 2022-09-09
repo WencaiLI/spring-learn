@@ -1,0 +1,63 @@
+# 应用名称
+spring:
+  application:
+    name: springboot-mongodb
+
+
+carefree:
+  mongodb:
+    enable: true
+    options:
+      primary: true
+      uri: mongodb://[username:password@]host1[:port1][,host2[:port2],…[,hostN[:portN]]][/[database][?options]]
+      addresses:
+        - 192.168.1.1:27017
+        - 192.168.1.2:27017
+      database: test_db
+      auth: true
+      username: test_user
+      password: test_pwd
+      authentication-mechanism: SCRAM-SHA-1
+      authentication-source: admin
+      description: some description
+      application-name: test app
+      connect-timeout: 10000
+      socket-timeout: 0
+      max-wait-time: 120000
+      min-connections-per-host: 0
+      max-connections-per-host: 100
+      max-connection-idle-time: 0
+      max-connection-life-time: 0
+      threads-allowed-to-block-for-connection-multiplier: 5
+      heartbeat-frequency: 10000
+      min-heartbeat-frequency: 500
+      heartbeat-connect-timeout: 20000
+      heartbeat-socket-timeout: 20000
+      retry-writes: false
+      always-use-m-beans: false
+      ssl-enabled: false
+      ssl-invalid-host-name-allowed: false
+      local-threshold: 15
+      server-selection-timeout: 30000
+      server-selector: com.xxx.CustomServerSelector
+      required-replica-set-name: replica_name
+      write-concern: w1
+      read-concern: local
+      read-preference: primary
+      cursor-finalizer-enabled: true
+      command-listeners:
+        - com.xxx.CustomCommandListener
+      cluster-listeners:
+        - com.xxx.CustomClusterListener
+      connection-pool-listeners:
+        - com.xxx.CustomConnectionPoolListener
+      server-listeners:
+        - com.xxx.CustomServerListener
+      server-monitor-listeners:
+        - com.xxx.CustomServerMonitorListener
+      type-key: _class
+      grid-fs-template-name: gridFsTemplate
+      grid-fs-database: test_db
+      field-naming-strategy: com.xxx.CustomFieldNamingStrategy
+      optioned-listeners:
+        - com.xxx.CustomOptionedListener

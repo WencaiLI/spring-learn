@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-mybatis
+
+mybatis:
+  mapper-locations: classpath:mybatis/**/*.xml
+  type-aliases-package: tcu.example.account.db.dao.generated.model
+  configuration:
+    map-underscore-to-camel-case: true
+    use-generated-keys: true
+

@@ -1,4 +1,4 @@
-package com.lwc.demo;
+package com.lwc.mybatis;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

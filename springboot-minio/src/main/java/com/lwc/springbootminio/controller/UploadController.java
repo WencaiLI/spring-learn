@@ -3,6 +3,7 @@ package com.lwc.springbootminio.controller;
 import com.lwc.springbootminio.VO.MinIoUploadVo;
 import com.lwc.springbootminio.VO.R;
 import com.lwc.springbootminio.service.MinioService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

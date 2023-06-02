@@ -20,8 +20,11 @@ class SpringbootHippo4jApplicationTests {
     void contextLoads() {
         for (int i = 0; i < 100; i++) {
             int finalI = i;
-            messageProduceDynamicExecutor.execute(() -> System.out.println(finalI));
-            messageProduceDynamicExecutor.execute(() -> System.out.println(finalI));
+            while (messageProduceDynamicExecutor.isTerminated()){
+                messageProduceDynamicExecutor.execute(() -> System.out.println(finalI));
+            }
+            messageProduceDynamicExecutor.shutdown();
+//            messageProduceDynamicExecutor.execute(() -> System.out.println(finalI));
         }
 
     }

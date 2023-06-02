@@ -1,13 +1,13 @@
-package com.lwc.springbootkafka;
+package com.lwc.springboot.lombok;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootKafkaApplication {
+public class SpringbootLombokApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootKafkaApplication.class, args);
+        SpringApplication.run(SpringbootLombokApplication.class, args);
     }
 
 }

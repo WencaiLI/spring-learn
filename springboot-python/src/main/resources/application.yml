@@ -2,5 +2,7 @@
 spring:
   application:
     name: springboot-python
-
+python:
+  file:
+    main: D:\\test.py # 主程序文件（执行入口）(绝对路径)
 

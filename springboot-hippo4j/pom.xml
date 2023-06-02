@@ -48,6 +48,12 @@
             <artifactId>hippo4j-config-spring-boot-starter</artifactId>
             <version>1.4.3-upgrade</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.7.0</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
